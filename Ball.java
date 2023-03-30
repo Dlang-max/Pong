@@ -23,7 +23,7 @@ public class Ball {
 
         try
         {
-            mo = ImageIO.read( new File( "Mo.png" ) );
+            mo = ImageIO.read( new File( "Pong/Mo.png" ) );
         }
         catch( Exception e )
         {
