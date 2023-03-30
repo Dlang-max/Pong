@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import javax.swing.Timer;
 
 /**
- * Runner class for our game
+ * Runner class for our game. All coordinates done how Java does them. Meaning (0,0)
+ *  is in the top left for the screen along with the objects being drawn
  */
 public class Runner extends JPanel implements ActionListener, KeyListener, MouseListener
 {
@@ -32,10 +33,6 @@ public class Runner extends JPanel implements ActionListener, KeyListener, Mouse
 
     private Timer clock;
    
-
-    
-
-
     /**
      * Constructor for our game
      */
@@ -189,9 +186,6 @@ public class Runner extends JPanel implements ActionListener, KeyListener, Mouse
             ball.drawMo( g );
         }
     }
-
-
-
 
     /**
      * This method is run for our game to begin.
